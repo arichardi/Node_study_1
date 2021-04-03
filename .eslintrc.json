@@ -27,6 +27,10 @@
             "error",
             4
         ],
+        "space-before-function-paren": [
+            "error",
+            "never"
+        ],
         "camelcase": "off",
         "import/no-unresolved": "error",
         "@typescript-eslint/naming-convention": [
