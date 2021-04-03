@@ -23,6 +23,10 @@
         }
     },
     "rules": {
+        "indent": [
+            "error",
+            4
+        ],
         "camelcase": "off",
         "import/no-unresolved": "error",
         "@typescript-eslint/naming-convention": [

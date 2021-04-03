@@ -1,11 +1,11 @@
-import express from 'express'
+import express, { response } from 'express'
 
 const app = express()
 
 app.use(express.json())
 
 app.get('/', (request, response) => {
-  return response.json({ message: 'Get route ok' })
+    response.json({ Message: 'Hello WOrld' })
 })
 
-app.listen(3333, () => console.log('Our server is running'))
+app.listen(3333, () => console.log('Server is running'))
